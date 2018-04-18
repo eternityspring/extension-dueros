@@ -1,0 +1,13 @@
+body{
+  background:#333;
+}
+.get-msg{
+  position: fixed;
+  top: 50px;
+  right: 50px;
+  background: #eee;
+  border: 1px solid #dbdbdb;
+  padding: 12px 4px;
+  min-width: 80px;
+  border-radius: 5px;
+}
