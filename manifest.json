@@ -10,7 +10,7 @@
     "128": "images/icon128.jpg"
   },
   "permissions":[
-    "contextMenus","bookmarks"
+    "contextMenus","bookmarks","http://localhost:3000/"
   ],
   "background":{
     "scripts":[
@@ -19,5 +19,12 @@
       "js/qrcode.js",
       "js/script.js"
     ]
-  }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://wx.qq.com/*"],
+      "css": ["css/style.css"],
+      "js": ["js/jquery-3.1.1.min.js", "js/wx.js"]
+    }
+  ]
 }
