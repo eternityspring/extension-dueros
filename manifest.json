@@ -10,7 +10,7 @@
     "128": "images/icon128.jpg"
   },
   "permissions":[
-    "contextMenus","bookmarks","http://localhost:3000/"
+    "contextMenus","bookmarks","http://test.sunlands/*"
   ],
   "background":{
     "scripts":[
