@@ -1,0 +1,36 @@
+.useful-tool {
+  margin-left: 45px;
+  margin-top: 20px; }
+
+.add-container {
+  position: relative;
+  width: 320px;
+  margin-bottom: 20px; }
+  .add-container .add-input {
+    width: 100%;
+    height: 36px;
+    border: 1px solid #ebeef5;
+    padding-right: 120px; }
+  .add-container .addUseful {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 120px;
+    height: 36px;
+    line-height: 36px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    background: #38f; }
+
+.useful-list {
+  overflow: hidden; }
+  .useful-list .item {
+    display: inline-block;
+    float: left; }
+  .useful-list .content {
+    padding: 3px; }
+  .useful-list .close {
+    padding: 3px; }
+
+/*# sourceMappingURL=style.css.map */
