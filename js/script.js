@@ -1,11 +1,6 @@
 var url = location.href;
 console.log(url);
-var qr = jQuery('#qrcode').qrcode({
-    width: 80,
-    height: 80,
-    text: url
-  });
-
+console.log(chrome);
 chrome.contextMenus.create({
   "title": "去学习",
   "onclick":function () {

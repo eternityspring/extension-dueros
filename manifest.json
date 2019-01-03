@@ -1,8 +1,8 @@
 {
-  "name":"QR-code",
+  "name":"extention-dueros",
   "version":"0.0.1",
   "manifest_version": 2,
-  "description":"邮件生成当前页面链接的二维码，方便切换到手机访问。",
+  "description":"dueros控制台辅助工具",
   "icons":{
     "16": "images/icon16.jpg",
     "48": "images/icon48.jpg",
@@ -10,21 +10,19 @@
     "128": "images/icon128.jpg"
   },
   "permissions":[
-    "contextMenus","bookmarks","http://test.sunlands/*"
+    "contextMenus","bookmarks","http://dueros.baidu.com/dbp/debug/*","https://www.baidu.com/"
   ],
   "background":{
     "scripts":[
-      "js/jquery.min.js",
-      "js/jquery.qrcode.js",
-      "js/qrcode.js",
+      "js/jquery-3.1.1.min.js",
       "js/script.js"
     ]
   },
   "content_scripts": [
     {
-      "matches": ["https://wx.qq.com/*"],
+      "matches": ["https://dueros.baidu.com/dbp/debug/index"],
       "css": ["css/style.css"],
-      "js": ["js/jquery-3.1.1.min.js", "js/wx.js"]
+      "js": ["js/jquery-3.1.1.min.js", "js/page.js"]
     }
   ]
 }
