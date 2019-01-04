@@ -5,12 +5,13 @@
 .add-container{
   position: relative;
   width: 320px;
-  margin-bottom: 20px;
   .add-input{
     width: 100%;
     height: 36px;
     border: 1px solid #ebeef5;
-    padding-right: 120px;
+    padding: 0 120px 0 12px;
+    line-height: 36px;
+    outline: none;
   }
   .addUseful{
     position: absolute;
@@ -23,19 +24,31 @@
     font-size: 14px;
     text-align: center;
     background: #38f;
+    cursor: pointer;
   }
 }
 
 .useful-list{
   overflow: hidden;
+  padding: 20px 0 8px;
   .item{
-    display: inline-block;
+    display: flex;
     float: left;
+    box-shadow: rgba(51, 51, 51, 0.2) 0px 1px 3px 0px;
+    background: #eee;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    cursor: pointer;
   }
   .content{
-    padding: 3px;
+    padding: 6px;
+    flex: 1;
   }
   .close{
-    padding: 3px;
+    padding: 6px;
+    border-right: 1px solid #ebeef5;
   }
+}
+.dcsimitator-content{
+  padding-top: 0!important;
 }
