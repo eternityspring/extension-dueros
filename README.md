@@ -1,7 +1,7 @@
 # extention-dueros
 deros 控制台便捷操作辅助工具
 
-插件地址：https://chrome.google.com/webstore/detail/giakeiaanlemigppipjphicnmpkhgdbh/publish-accepted?authuser=1&hl=en-US
+插件地址：https://chrome.google.com/webstore/detail/extention-dueros/giakeiaanlemigppipjphicnmpkhgdbh
 <del>（还没支付5$ 审核不了）</del>
 
 好像不支付认证，也可以发布了哈。
